@@ -1,0 +1,161 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+.logo {
+    margin: 18px 0px 0px 32px;
+}
+
+.main {
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+
+.input-texto {
+    margin-top: 70px;
+
+    background: #F3F5FC;
+
+    border-style: none;
+    outline: none;
+    resize: none;
+}
+
+.informacao {
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    width: 250px;
+    height: 50px;
+
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-radius: 24px;
+
+    font-size: 20px;
+}
+
+.encriptar:hover {
+    background-color: #356EA9;
+    color: #FFFFFF;
+}
+
+.encriptar:active {
+    background-color: #757FB2;
+    color: #FFFFFF;
+}
+
+.desencriptar {
+    width: 250px;
+    height: 50px;
+
+    margin-left: 30px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-size: 20px;
+}
+
+.desencriptar:hover {
+    background-color: #072B61;
+    color: #FFFFFF;
+}
+
+.desencriptar:active {
+    background-color: #757FB2;
+    color: #FFFFFF;
+}
+
+.mensagem {
+    position: relative;
+    margin-top: 2px;
+    margin-left: 90px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+    background-image: url('imgs/pesquisando.png');
+    background-repeat: no-repeat;
+
+    background-position-x: center;
+    background-position-y: center;
+
+    text-align: center;
+    font-size: 19px;
+
+    outline: none;
+    border-style: none;
+    resize: none;
+}
+
+.div-btn-copia {
+    display: none;
+    text-align: center;
+
+}
+
+.btn-copia {
+    width: 250px;
+    height: 50px;
+
+    position: absolute;
+    top: 545px;
+    left: 850px;
+
+    margin: 20px 0px 0px 90px;
+
+    background-color: #D8DFE8;
+    color: #0A3871;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-size: 20px;
+}
+
+.btn-copia:hover {
+    background-color: #072B61;
+    color: #FFFFFF;
+}
+
+.btn-copia:active {
+    background-color: #AAB2D5;
+    color: #FFFFFF;
+}
+
+.lira {
+    text-align: center;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.lira strong {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.redes {
+    text-align: center;
+    margin: 5px 0px;
+}

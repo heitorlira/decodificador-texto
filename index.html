@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Decodificador de texto</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="https://www.alura.com.br/"><img src="imgs/logo-alura.png"
+                alt="Logo da Alura com a letra inicial do alfabeto minúscula" class="logo"></a>
+    </header>
+
+    <main class="main">
+        <section>
+            <textarea class="input-texto" cols="40" rows="6" placeholder="Digite seu texto" autofocus
+                required></textarea>
+
+            <div>
+                <h6 class="informacao">&#128712; Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensagem" cols="30" rows="19"
+                placeholder="Nenhuma mensagem encontrada.&#10;&#10;Digite um texto ao lado para criptografar ou descriptografar."
+                readonly></textarea>
+            <div class="div-btn-copia">
+                <button class="btn-copia" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+
+    <footer>
+        <p class="lira">
+            Desenvolvido por <strong>Heitor Lira</strong> - 2022
+        </p>
+        <p class="redes">
+            <a href="https://github.com/heitorlira"><img src="imgs/GitHub-Mark-32px.png" alt="Rede Social GitHub"></a>
+            <a href="https://www.linkedin.com/in/heitor-lira/"><img src="imgs/Linkedin-icon.png"
+                    alt="Rede Social LinkedIn"></a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
